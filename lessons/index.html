@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>React ES6</title>
+</head>
+<body>
+  <ul id="lesson-list">
+  </ul>
+<script>
+  var lessons = [
+     "02 - React Fundamentals - Hello World - First Component",
+     "03 - React Fundamentals - The Render Method",
+     "04 - React Fundamentals - Introduction to Properties",
+     "05 - React Fundamentals - State Basics",
+     "06 - React Fundamentals - Owner Ownee Relationship",
+     "07 - React Fundamentals - Using Refs to Access Components",
+     "08 - React Fundamentals - Accessing Child Properties",
+     "09 - React Fundamentals - Component Lifecycle - Mounting Basics"
+
+    // "04 Properties",
+    // "07-child-properties"
+  ]
+  var ll = document.getElementById('lesson-list')
+  lessons.forEach(function(lesson){
+    ll.innerHTML += '<li><a href="/'+ lesson +'">'+lesson+'</a></li>'
+  })
+</script>
+
+</body>
+</html>
