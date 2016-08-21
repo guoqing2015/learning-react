@@ -8,7 +8,8 @@ var lessons = [
   "06 - React Fundamentals - Owner Ownee Relationship",
   "07 - React Fundamentals - Using Refs to Access Components",
   "08 - React Fundamentals - Accessing Child Properties",
-  "09 - React Fundamentals - Component Lifecycle - Mounting Basics"
+  "09 - React Fundamentals - Component Lifecycle - Mounting Basics",
+  "10 - React Fundamentals - Component Lifecycle - Mounting Usage"
 
   // "07-child-properties",
    // "04 Properties"
