@@ -39,7 +39,7 @@ var Label = React.createClass({
     mixins: [ReactMixin],
     componentWillMount: function(){
         setInterval(this.incrementCount, 100)
-    }
+    },
     render: function () {
         return <label>{this.props.txt} - {this.state.count}</label>
     }
