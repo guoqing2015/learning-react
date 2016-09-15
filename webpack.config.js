@@ -10,7 +10,9 @@ var lessons = [
   "08 - React Fundamentals - Accessing Child Properties",
   "09 - React Fundamentals - Component Lifecycle - Mounting Basics",
   "10 - React Fundamentals - Component Lifecycle - Mounting Usage",
-  "11 - React Fundamentals - Component Lifecycle - Updating"
+  "11 - React Fundamentals - Component Lifecycle - Updating",
+  "12 -  React Mixins",
+
 
   // "07-child-properties",
    // "04 Properties"
