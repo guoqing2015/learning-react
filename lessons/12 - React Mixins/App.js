@@ -7,6 +7,7 @@ var ReactMixin = {
     return {count: 0};
   },
   componentWillMount: function () {
+    console.log(this);
     console.log('will mount!');
   },
   incrementCount: function () {
