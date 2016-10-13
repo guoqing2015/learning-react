@@ -12,8 +12,8 @@ var lessons = [
   "10 - React Fundamentals - Component Lifecycle - Mounting Usage",
   "11 - React Fundamentals - Component Lifecycle - Updating",
   "12 - React Mixins",
-  "13 - React Fundamentals - Composable Components"
-  //"14 - React Fundamentals - Dynamically Generated Components"
+  "13 - React Fundamentals - Composable Components",
+  "14 - React Fundamentals - Dynamically Generated Components"
 
 
   // "07-child-properties",
