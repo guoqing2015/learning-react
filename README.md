@@ -17,3 +17,5 @@
 
 ## redux-sagas中间件
 * [redux-saga-examples](https://github.com/kuy/redux-saga-examples)
+* [redux-saga 实践总结](https://segmentfault.com/a/1190000007261052?_ea=1290634)
+* [compose redux sagas](https://segmentfault.com/a/1190000005776381)
