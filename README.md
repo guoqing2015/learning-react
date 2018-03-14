@@ -1,7 +1,4 @@
-```bash
-npm install babel -g
-npm install
-npm start
-```
+# React 学习
 
-open browser to http://localhost:3000
+## React
+* [React组件之间的通信](docs/React/React组件之间的通信.md)
