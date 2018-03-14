@@ -1,5 +1,5 @@
 
-# react-redux
+# react-redux介绍
 
 > React-Redux是官方提供的一个库，用来结合redux和react的模块。React-Redux提供了两个接口**Provider**、**connect**。
 
