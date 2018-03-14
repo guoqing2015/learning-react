@@ -10,7 +10,7 @@
 * [Redux](docs/Redux/Redux.md)
 
 ## react-redux
-* [react-redux介绍](docs/Redux/react-redux介绍.md)
+* [react-redux介绍](docs/react-redux/react-redux介绍.md)
 * [Action & 中间件 & 异步](https://github.com/dwqs/blog/issues/35)
 
 
