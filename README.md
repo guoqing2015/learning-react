@@ -12,5 +12,6 @@
 ## react-redux
 * [react-redux介绍](docs/react-redux/react-redux介绍.md)
 * [Action & 中间件 & 异步](https://github.com/dwqs/blog/issues/35)
+* [组件拆分 & connect](https://github.com/dwqs/blog/issues/38)
 
 
