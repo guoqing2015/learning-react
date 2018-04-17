@@ -31,7 +31,7 @@ class MyComponent extends React.Component {
 export default withRouter(MyComponent);
 ```
 
-## react-router-redux的使用
+## 使用 react-router-redux
 
 如果使用了 [react-router-redux](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-redux) , 则可以直接从state 中的router属性中获取location。不需要再使用withRouter 获取路由信息了
 
