@@ -9,20 +9,26 @@ react-router-dom 的路由为组件提供了**history**, **location** , **match*
 var Home = ( {history,location,match })=> <div>{location.pathname}</div>
 ```
 
-## withRouter的作用
+##  使用 withRouter
 
-react-router 提供了一个withRouter组件
+
+react-router v4 提供了一个withRouter**高阶组件**
 
 withRouter可以包装任何自定义组件，将react-router-dom 的 **history**, **location** , **match** 三个对象传入。这样就不用一级级传递react-router的属性
 
 ```jsx
-import {withRouter} from 'react-router-dom' ;
+import React from "react";
+import {withRouter} from "react-router-dom";
 
-var Test = ({history, location, match} => {
-    return <div>{location.pathname}</div>
-})
-
-export default withRouter(Test)
+class MyComponent extends React.Component {
+  ...
+  myFunction() {
+    this.props.history.push("/some/Path");
+    // this.props.router.push('/')
+  }
+  ...
+}
+export default withRouter(MyComponent);
 ```
 
 ## react-router-redux的使用
