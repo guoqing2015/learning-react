@@ -3,7 +3,7 @@
 ## Route
 
 react-router-dom 的路由为组件提供了**history**, **location** , **match** 三个对象
-```
+```jsx
 <Route exact path="/Home" component={Home}/>
 
 var Home = ( {history,location,match })=> <div>{location.pathname}</div>
@@ -15,7 +15,7 @@ react-router 提供了一个withRouter组件
 
 withRouter可以包装任何自定义组件，将react-router-dom 的 **history**, **location** , **match** 三个对象传入。这样就不用一级级传递react-router的属性
 
-```
+```jsx
 import {withRouter} from 'react-router-dom' ;
 
 var Test = ({history, location, match} => {
