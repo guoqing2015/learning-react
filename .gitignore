@@ -1,4 +1,4 @@
-#过滤数据库文件、sln解决方案文件、配置文件
+﻿#过滤数据库文件、sln解决方案文件、配置文件
 *.mdb
 *.ldb
 *.sln
@@ -15,3 +15,9 @@ obj/
 .idea/
 
 node_modules/
+
+node_modules
+*.idea
+*.bat
+*.sh
+package-lock.json
