@@ -27,7 +27,7 @@ export default withRouter(Test)
 
 ## react-router-redux的使用
 
-如果使用了(react-router-redux)[https://github.com/ReactTraining/react-router/tree/master/packages/react-router-redux], 则可以直接从state 中的router属性中获取location。不需要再使用withRouter 获取路由信息了
+如果使用了 (react-router-redux)[https://github.com/ReactTraining/react-router/tree/master/packages/react-router-redux] , 则可以直接从state 中的router属性中获取location。不需要再使用withRouter 获取路由信息了
 
 ```
 import React from 'react'
