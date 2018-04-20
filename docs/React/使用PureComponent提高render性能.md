@@ -153,3 +153,7 @@ export default Child;
 
 child为纯组件(PureComponent)。 当点击按钮后，**this.state.items** 的值发生了改变，但是它仍然指向同一个对象的引用。
 
+
+参考：
+- [React PureComponent 使用指南](https://juejin.im/entry/5934c9bc570c35005b556e1a)
+- [在React.js中使用PureComponent的重要性和使用方式](https://www.zcfy.cc/article/why-and-how-to-use-purecomponent-in-react-js-60devs)
