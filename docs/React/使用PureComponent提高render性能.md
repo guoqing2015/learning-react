@@ -189,7 +189,7 @@ defaultValue = {}
 < Item store={this.store} key={k} id={k} data={i || defaultValue} />
 ```
 
-#### 复杂状态与简单状态不要共用一个组件
+### 复杂状态与简单状态不要共用一个组件
 
 这点可能和PureComponent没多少关系，但做的不好可能会浪费很多性能，比如一个页面上面一部分是一个复杂的列表，下面是一个输入框，抽象代码：
 
