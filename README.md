@@ -5,7 +5,7 @@
 * [React组件之间的通信](docs/React/React组件之间的通信.md)
 * [React创建组件的三种方式](docs/React/React创建组件的三种方式.md)
 * [Immutable与React state](docs/React/Immutable与React%20state.md)
-* [使用PureComponent提高render性能](docs/React/使用PureComponent提高render性能)
+* [使用PureComponent提高render性能](docs/React/使用PureComponent提高render性能.md)
 
 ## react-router
 * [withRouter](docs/react-router/withRouter.md)
