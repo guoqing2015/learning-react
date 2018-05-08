@@ -1,5 +1,15 @@
 # React 学习
 
+
+• Fiber架构是怎么回事
+• render可返回数组和字符串的意义
+• 更好的错误处理
+• Portal的应用
+• 更强的服务器端渲染
+• 可定制JSX元素标签
+• 选择合适的升级策略
+• React的未来
+
 ## React
 * [React 组件的Props 和 State](docs/React/React%20组件的Props%20和%20State.md)
 * [React组件之间的通信](docs/React/React组件之间的通信.md)
@@ -30,3 +40,4 @@
 * [01 - Error Handling using Error Boundaries in React 16](tutorial/Leverage%20New%20Features%20of%20React%2016/01%20-%20Error%20Handling%20using%20Error%20Boundaries%20in%20React%2016/script.jsx)
 * [02 - Render Multiple Elements without a Wrapping Element in a Component in React 16](tutorial/Leverage%20New%20Features%20of%20React%2016/02%20-%20Render%20Multiple%20Elements%20without%20a%20Wrapping%20Element%20in%20a%20Component%20in%20React%2016/script.jsx)
 * [03 - Render Text Only Components in React 16](tutorial/Leverage%20New%20Features%20of%20React%2016/03%20-%20Render%20Text%20Only%20Components%20in%20React%2016/script.jsx)
+* [04 - Render Elements Outside the Current React Tree using Portals in React 16]()

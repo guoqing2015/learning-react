@@ -1,10 +1,11 @@
 
 const Comment = ({ text }) => {
-    const emojifiedText = text
-    .replace(':)', '😊')
-    .replace(':D', '😀')
-    .replace(':(', '🙁');
-    return emojifiedText;
+    // const emojifiedText = text
+    // .replace(':)', '😊')
+    // .replace(':D', '😀')
+    // .replace(':(', '🙁');
+    // return emojifiedText;
+    return 12323
 };
 
 class App extends React.Component {
