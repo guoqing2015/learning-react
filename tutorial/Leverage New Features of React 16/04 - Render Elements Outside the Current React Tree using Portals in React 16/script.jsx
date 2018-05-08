@@ -29,9 +29,14 @@ class Overlay extends React.Component {
     document.body.appendChild(this.overlayContainer);
   }
 
+  componentWillMount() {
+    // document.body.removeChild(this.overlayContainer);
+  }
+
   render() {
     return ReactDOM.createPortal(
       <div className="overlay">
+        <span onClick={this.props.onClose}>关闭</span>
         {this.props.children}
       </div>,
       this.overlayContainer
@@ -40,22 +45,35 @@ class Overlay extends React.Component {
 }
 
 class App extends React.Component {
-    render() {
-      return (
-        <div>
-          <h1>Dashboard</h1>
-          {/* {
-            ReactDOM.createPortal(
-              <div className="overlay">welcome</div>,  //塞进传送门的JSX
-              document.getElementById('portal-container') //传送门的另一端DOM node
-            )
-          } */}
-          <Overlay>
+  constructor(props) {
+    super(props);
+    this.state = {
+      overlayActive: true
+    };
+  }
+
+  closeOverlay = () => {
+    this.setState({ overlayActive: false })
+  }
+  
+  render() {
+    return (
+      <div>
+        <h1>Dashboard</h1>
+        {/* {
+          ReactDOM.createPortal(
+            <div className="overlay">welcome</div>,  //塞进传送门的JSX
+            document.getElementById('portal-container') //传送门的另一端DOM node
+          )
+        } */}
+        {this.state.overlayActive &&
+          <Overlay onClose={this.closeOverlay}>
             welcome
           </Overlay>
-        </div>
-      );
-    }
+        }
+      </div>
+    );
+  }
 }
   
   ReactDOM.render(<App />, document.getElementById('root'));
