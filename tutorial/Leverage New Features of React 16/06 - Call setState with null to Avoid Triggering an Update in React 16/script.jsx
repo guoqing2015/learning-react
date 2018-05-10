@@ -6,6 +6,9 @@ class App extends React.Component {
 
   selectCity = evt => {
     const newValue = evt.target.value;
+    // this.setState({
+    //   city: newValue
+    // });
     this.setState(state => {
       if (state.city === newValue) {
         return null;
