@@ -41,3 +41,6 @@
 * [02 - Render Multiple Elements without a Wrapping Element in a Component in React 16](tutorial/Leverage%20New%20Features%20of%20React%2016/02%20-%20Render%20Multiple%20Elements%20without%20a%20Wrapping%20Element%20in%20a%20Component%20in%20React%2016/script.jsx)
 * [03 - Render Text Only Components in React 16](tutorial/Leverage%20New%20Features%20of%20React%2016/03%20-%20Render%20Text%20Only%20Components%20in%20React%2016/script.jsx)
 * [04 - Render Elements Outside the Current React Tree using Portals in React 16](tutorial/Leverage%20New%20Features%20of%20React%2016/04%20-%20Render%20Elements%20Outside%20the%20Current%20React%20Tree%20using%20Portals%20in%20React%2016/script.jsx)
+* [05 - Define DOM Attributes in React 16](tutorial/Leverage%20New%20Features%20of%20React%2016/05%20-%20Define%20DOM%20Attributes%20in%20React%2016/script.jsx)
+* [06 - Call setState with null to Avoid Triggering an Update in React 16](tutorial/Leverage%20New%20Features%20of%20React%2016/06%20-%20Call%20setState%20with%20null%20to%20Avoid%20Triggering%20an%20Update%20in%20React%2016/script.jsx)
+* [07 - Render Multiple Elements using React.Fragment and the JSX Fragment Syntax in React 16.2](tutorial/Leverage%20New%20Features%20of%20React%2016/07%20-%20Render%20Multiple%20Elements%20using%20React.Fragment%20and%20the%20JSX%20Fragment%20Syntax%20in%20React%2016.2/script.jsx)
