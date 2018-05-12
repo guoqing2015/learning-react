@@ -1,5 +1,7 @@
 // import React, { Component, Fragment } from "react";
 
+
+// With React 16 it is possible now to return an Array of elements.
 function Fruits(){
   return (
     <React.Fragment>
@@ -10,6 +12,8 @@ function Fruits(){
   );
 }
 
+
+// In React 16.2 support for fragments was added. It's a convenient way to return multiple children from a component’s render method.
 function Glossary(props) {
   return (
     <dl>
