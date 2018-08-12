@@ -45,3 +45,18 @@
 * [05 - Define DOM Attributes in React 16](tutorial/Leverage%20New%20Features%20of%20React%2016/05%20-%20Define%20DOM%20Attributes%20in%20React%2016/script.jsx)
 * [06 - Call setState with null to Avoid Triggering an Update in React 16](tutorial/Leverage%20New%20Features%20of%20React%2016/06%20-%20Call%20setState%20with%20null%20to%20Avoid%20Triggering%20an%20Update%20in%20React%2016/script.jsx)
 * [07 - Render Multiple Elements using React.Fragment and the JSX Fragment Syntax in React 16.2](tutorial/Leverage%20New%20Features%20of%20React%2016/07%20-%20Render%20Multiple%20Elements%20using%20React.Fragment%20and%20the%20JSX%20Fragment%20Syntax%20in%20React%2016.2/script.jsx)
+
+### Add routing to React apps using React Router v4
+* [01 - Create Basic Routes with the React Router v4 BrowserRouter](/tutorial/Add%20routing%20to%20React%20apps%20using%20React%20Router%20v4/src/lessons/01-Router/App.js)
+* [02 - Use the React Router v4 Link Component for Navigation Between Routes](tutorial/Add%20routing%20to%20React%20apps%20using%20React%20Router%20v4/src/lessons/02-Link/App.js)
+* [03 - Style a Link that is Active with NavLink in React Router v4](tutorial/Add%20routing%20to%20React%20apps%20using%20React%20Router%20v4/src/lessons/03-NavLink/App.js)
+* [04 - Use URL Parameters with React Router v4](tutorial/Add%20routing%20to%20React%20apps%20using%20React%20Router%20v4/src/lessons/04-URL-Params/App.js)
+* [05 - Use Regular Expressions with Routes with React Router v4](tutorial/Add%20routing%20to%20React%20apps%20using%20React%20Router%20v4/src/lessons/05-URL-Regex/App.js)
+* [06 - Parse Query Parameters in React Router v4](tutorial/Add%20routing%20to%20React%20apps%20using%20React%20Router%20v4/src/lessons/06-Query-Params/App.js)
+* [07 - Render Catch-All Routes with React Router v4 using the Switch Component](tutorial/Add%20routing%20to%20React%20apps%20using%20React%20Router%20v4/src/lessons/07-Catch-All/App.js)
+* [08 - Conditionally Render a React Router v4 Route with the Switch Component](tutorial/Add%20routing%20to%20React%20apps%20using%20React%20Router%20v4/src/lessons/08-Conditional/App.js)
+* [09 - Render Multiple Components for the Same Route in React Router v4](tutorial/Add%20routing%20to%20React%20apps%20using%20React%20Router%20v4/src/lessons/09-Multiple/App.js)
+* [10 - Render Nested Routes with React Router v4](tutorial/Add%20routing%20to%20React%20apps%20using%20React%20Router%20v4/src/lessons/10-Nested/App.js)
+* [11 - Redirect to Another Page with React Router v4](tutorial/Add%20routing%20to%20React%20apps%20using%20React%20Router%20v4/src/lessons/11-Redirect/App.js)
+* [12 - Intercept Route Changes with React Router v4 Prompt Component](tutorial/Add%20routing%20to%20React%20apps%20using%20React%20Router%20v4/src/lessons/12-Prompt/App.js)
+* [13 - Understand the Difference Between the React Router v4 Router Types](tutorial/Add%20routing%20to%20React%20apps%20using%20React%20Router%20v4/src/lessons/13-Routers/App.js)
