@@ -18,6 +18,7 @@
 * [使用PureComponent提高render性能](docs/React/使用PureComponent提高render性能.md)
 
 ## react-router
+* [初探 React Router 4.0](https://www.jianshu.com/p/e3adc9b5f75c)
 * [withRouter](docs/react-router/withRouter.md)
 
 ## Redux
