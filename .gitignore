@@ -3,6 +3,7 @@
 *.ldb
 *.sln
 *.config
+*.lock
 
 
 #过滤文件夹Debug,Release,obj
