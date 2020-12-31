@@ -17,6 +17,8 @@
 * [Immutable与React state](docs/React/Immutable与React%20state.md)
 * [使用PureComponent提高render性能](docs/React/使用PureComponent提高render性能.md)
 * [**类组件、函数式组件**](https://juejin.im/post/5c0dfa265188257a5a2514d6)
+* [react hook 函数 10分钟搞懂能](https://www.jianshu.com/p/aafccf6e9ad6)
+* [React中useEffect使用](https://www.jianshu.com/p/6e525c3686ab)
 
 ## react-router
 * [初探 React Router 4.0](https://www.jianshu.com/p/e3adc9b5f75c)
